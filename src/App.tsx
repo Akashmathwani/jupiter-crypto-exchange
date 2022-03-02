@@ -39,8 +39,6 @@ export const App = () => {
       .then((result) => setTokens(result));
   }, []);
 
-  console.log(jupiter);
-
   return (
     <>
       <div style={{ fontWeight: 600, fontSize: 16, marginTop: 24 }}>
